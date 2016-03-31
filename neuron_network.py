@@ -1,5 +1,5 @@
 # Reference from Data Science From Scratch
-##
+## #  
 
 from __future__ import division
 from collections import Counter
@@ -89,5 +89,5 @@ def show_weights(neuron_idx):
             if weights[5*i + j] < 0: # row i, column j = weights[5*i + j]
                 # add black and white hatches, so visible whether dark or light
                 ax.add_patch(patch(j, i, '/', "white"))
-                ax.add_patch(patch(j, i, '\\', "black"))
+                ax.add_patch(patch(j, i, '\\', "black"))   
     plt.show()
